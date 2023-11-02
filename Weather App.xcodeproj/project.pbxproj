@@ -12,6 +12,7 @@
 		B6B053E32AF2DBDD003D27CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B053E22AF2DBDD003D27CA /* ViewController.swift */; };
 		B6B053E82AF2DBE0003D27CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B053E72AF2DBE0003D27CA /* Assets.xcassets */; };
 		B6B053EB2AF2DBE0003D27CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B053E92AF2DBE0003D27CA /* LaunchScreen.storyboard */; };
+		B6DEFED42AF32AB00049DA9A /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = B6DEFED32AF32AB00049DA9A /* Inject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DEFED42AF32AB00049DA9A /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,9 @@
 			dependencies = (
 			);
 			name = "Weather App";
+			packageProductDependencies = (
+				B6DEFED32AF32AB00049DA9A /* Inject */,
+			);
 			productName = "Weather App";
 			productReference = B6B053DB2AF2DBDD003D27CA /* Weather App.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +113,9 @@
 				Base,
 			);
 			mainGroup = B6B053D22AF2DBDD003D27CA;
+			packageReferences = (
+				B6DEFED22AF32AB00049DA9A /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = B6B053DC2AF2DBDD003D27CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -351,6 +359,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6DEFED22AF32AB00049DA9A /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6DEFED32AF32AB00049DA9A /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6DEFED22AF32AB00049DA9A /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6B053D32AF2DBDD003D27CA /* Project object */;
 }
