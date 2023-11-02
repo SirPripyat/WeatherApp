@@ -12,6 +12,8 @@
 		B6B053E32AF2DBDD003D27CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B053E22AF2DBDD003D27CA /* ViewController.swift */; };
 		B6B053E82AF2DBE0003D27CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B053E72AF2DBE0003D27CA /* Assets.xcassets */; };
 		B6B053EB2AF2DBE0003D27CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B053E92AF2DBE0003D27CA /* LaunchScreen.storyboard */; };
+		B6DEFED62AF3F5F70049DA9A /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DEFED52AF3F5F70049DA9A /* HourlyForecastCollectionViewCell.swift */; };
+		B6DEFED82AF410090049DA9A /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DEFED72AF410090049DA9A /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B6B053E72AF2DBE0003D27CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6B053EA2AF2DBE0003D27CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6B053EC2AF2DBE0003D27CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DEFED52AF3F5F70049DA9A /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6DEFED72AF410090049DA9A /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				B6B053DE2AF2DBDD003D27CA /* AppDelegate.swift */,
 				B6B053E02AF2DBDD003D27CA /* SceneDelegate.swift */,
 				B6B053E22AF2DBDD003D27CA /* ViewController.swift */,
+				B6DEFED52AF3F5F70049DA9A /* HourlyForecastCollectionViewCell.swift */,
+				B6DEFED72AF410090049DA9A /* Color+Extensions.swift */,
+				B6B053EC2AF2DBE0003D27CA /* Info.plist */,
 				B6B053E72AF2DBE0003D27CA /* Assets.xcassets */,
 				B6B053E92AF2DBE0003D27CA /* LaunchScreen.storyboard */,
-				B6B053EC2AF2DBE0003D27CA /* Info.plist */,
 			);
 			path = "Weather App";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DEFED82AF410090049DA9A /* Color+Extensions.swift in Sources */,
 				B6B053E32AF2DBDD003D27CA /* ViewController.swift in Sources */,
 				B6B053DF2AF2DBDD003D27CA /* AppDelegate.swift in Sources */,
+				B6DEFED62AF3F5F70049DA9A /* HourlyForecastCollectionViewCell.swift in Sources */,
 				B6B053E12AF2DBDD003D27CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
