@@ -9,7 +9,6 @@ class DailyForecastTableViewCell: UITableViewCell {
     
     label.translatesAutoresizingMaskIntoConstraints = false
     
-    label.text = "ter".uppercased()
     label.textColor = .contrastColor
     
     label.font = .systemFont(ofSize: 12, weight: .bold)
@@ -23,7 +22,6 @@ class DailyForecastTableViewCell: UITableViewCell {
     imageView.translatesAutoresizingMaskIntoConstraints = false
     
     imageView.contentMode = .scaleAspectFit
-    imageView.image = UIImage(named: "cloudIcon")
     
     return imageView
   }()
@@ -33,7 +31,6 @@ class DailyForecastTableViewCell: UITableViewCell {
     
     label.translatesAutoresizingMaskIntoConstraints = false
     
-    label.text = "min 25°C"
     label.textColor = .contrastColor
     
     label.font = .systemFont(ofSize: 12, weight: .bold)
@@ -46,7 +43,6 @@ class DailyForecastTableViewCell: UITableViewCell {
     
     label.translatesAutoresizingMaskIntoConstraints = false
     
-    label.text = "máx 25°C"
     label.textColor = .contrastColor
     
     label.font = .systemFont(ofSize: 12, weight: .bold)
@@ -79,6 +75,16 @@ class DailyForecastTableViewCell: UITableViewCell {
   
   required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
+  }
+  
+  func loadData(weekDay: String?, min: String?, max: String?, icon: UIImage?) {
+    weekDayLabel.text = weekDay
+    
+    minTemperatureLabel.text = "min \(min ?? "")"
+    
+    maxTemperatureLabel.text = "máx \(max ?? "")"
+    
+    iconImageView.image = icon
   }
   
   private func setupView() {

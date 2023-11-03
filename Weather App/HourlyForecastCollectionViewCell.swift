@@ -9,7 +9,6 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     
     label.translatesAutoresizingMaskIntoConstraints = false
     
-    label.text = "13:00"
     label.textColor = UIColor(named: "contrastColor")
     label.textAlignment = .center
     
@@ -23,7 +22,6 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     
     label.translatesAutoresizingMaskIntoConstraints = false
     
-    label.text = "25°C"
     label.textColor = .contrastColor
     label.textAlignment = .center
     
@@ -37,7 +35,6 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     
     imageView.translatesAutoresizingMaskIntoConstraints = false
     
-    imageView.image = UIImage(named: "sunIcon")
     imageView.contentMode = .scaleAspectFit
     
     return imageView
@@ -70,6 +67,12 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
   
   required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
+  }
+  
+  func loadWeatherData(time: String?, icon: UIImage?, temperature: String?) {
+    hourLabel.text = time
+    weatherIconImageView.image = icon
+    temperatureLabel.text = temperature
   }
   
   private func setupView() {

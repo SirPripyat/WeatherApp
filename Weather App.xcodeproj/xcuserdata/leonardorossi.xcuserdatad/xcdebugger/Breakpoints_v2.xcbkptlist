@@ -7,110 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6B12533E-EFCB-4CF0-A689-ABC8F6185252"
+            uuid = "149FF2D6-B8E2-41BC-BCB7-DF32497AF4D1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Weather App/DailyForecastTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "init?(coder:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C80E8BC6-A90F-42BE-BB9A-B47A9AA44086"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Weather App/DailyForecastTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "minTemperatureLabel"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "stackView"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "C80E8BC6-A90F-42BE-BB9A-B47A9AA44086 - d27854446a7afc0f"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Weather_App.DailyForecastTableViewCell.minTemperatureLabel.getter : __C.UILabel"
-                  moduleName = "Weather App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/leonardorossi/Desktop/Programac%CC%A7a%CC%83o/Weather%20App/Weather%20App/DailyForecastTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "152">
-               </Location>
-               <Location
-                  uuid = "C80E8BC6-A90F-42BE-BB9A-B47A9AA44086 - 939a00273f03b8ca"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; __C.UILabel in Weather_App.DailyForecastTableViewCell.minTemperatureLabel.getter : __C.UILabel"
-                  moduleName = "Weather App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/leonardorossi/Desktop/Programac%CC%A7a%CC%83o/Weather%20App/Weather%20App/DailyForecastTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "C80E8BC6-A90F-42BE-BB9A-B47A9AA44086 - d482e4b44077c073"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Weather_App.DailyForecastTableViewCell.minTemperatureLabel.setter : __C.UILabel"
-                  moduleName = "Weather App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/leonardorossi/Desktop/Programac%CC%A7a%CC%83o/Weather%20App/Weather%20App/DailyForecastTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "C80E8BC6-A90F-42BE-BB9A-B47A9AA44086 - e69b200d06a55702"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Weather_App.DailyForecastTableViewCell.minTemperatureLabel.modify : __C.UILabel"
-                  moduleName = "Weather App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/leonardorossi/Desktop/Programac%CC%A7a%CC%83o/Weather%20App/Weather%20App/DailyForecastTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "C80E8BC6-A90F-42BE-BB9A-B47A9AA44086 - 894c5e3322f77143"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Weather_App.DailyForecastTableViewCell.minTemperatureLabel.modify : __C.UILabel with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "Weather App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/leonardorossi/Desktop/Programac%CC%A7a%CC%83o/Weather%20App/%3Ccompiler-generated%3E"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
